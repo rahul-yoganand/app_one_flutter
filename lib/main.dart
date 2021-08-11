@@ -9,14 +9,12 @@ void main() => runApp(
                 centerTitle: true,
                 backgroundColor: Colors.orange),
             body: Container(
-            color:Colors.green,margin: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
-            child: Center(
-                child: RaisedButton.icon(
-                onPressed: (){},
-                color:Colors.amber,
-                   icon: Icon(Icons.airport_shuttle),
-                    label: Text('mail me'))
-    ),),
+                  color:Colors.green,margin: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+              child: Padding(
+                      padding:EdgeInsets.symmetric(vertical:20.0,horizontal: 10.0),
+                      child:Text('Hello')
+            ),),
+            backgroundColor: Colors.lightGreenAccent,
             floatingActionButton: FloatingActionButton(
                 onPressed: () {},
                 child: Text('+'),

@@ -14,7 +14,7 @@ void main() => runApp(
                       padding:EdgeInsets.symmetric(vertical:20.0,horizontal: 10.0),
                       child:Text('Hello')
             ),),
-            backgroundColor: Colors.lightGreenAccent,
+
             floatingActionButton: FloatingActionButton(
                 onPressed: () {},
                 child: Text('+'),
